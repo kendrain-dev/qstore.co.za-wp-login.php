@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+        <html lang="en-US">
+        <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />                                                   <title>Log In &lsaquo; QStore &#8212; WordPress</title>
+            <style>
+       .login-action-lostpassword #login_error{
+           display: none;
+       }
+    </style>
+    <meta name='robots' content='max-image-preview:large, noindex, noarchive' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<script id="jquery-core-js" src="https://qstore.co.za/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://qstore.co.za/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel='stylesheet' id='font-awesome-css' href='https://qstore.co.za/wp-content/plugins/advanced-product-labels-for-woocommerce/berocket/assets/css/font-awesome.min.css?ver=7.0.2' media='all' />
+<link rel='stylesheet' id='berocket_products_label_style-css' href='https://qstore.co.za/wp-content/plugins/advanced-product-labels-for-woocommerce/css/frontend.css?ver=3.3.3.7' media='all' />
+<style id="berocket_products_label_style-inline-css">
+
+        .berocket_better_labels:before,
+        .berocket_better_labels:after {
+            clear: both;
+            content: " ";
+            display: block;
+        }
+        .berocket_better_labels.berocket_better_labels_image {
+            position: absolute!important;
+            top: 0px!important;
+            bottom: 0px!important;
+            left: 0px!important;
+            right: 0px!important;
+            pointer-events: none;
+        }
+        .berocket_better_labels.berocket_better_labels_image * {
+            pointer-events: none;
+        }
+        .berocket_better_labels.berocket_better_labels_image img,
+        .berocket_better_labels.berocket_better_labels_image .fa,
+        .berocket_better_labels.berocket_better_labels_image .berocket_color_label,
+        .berocket_better_labels.berocket_better_labels_image .berocket_image_background,
+        .berocket_better_labels .berocket_better_labels_line .br_alabel,
+        .berocket_better_labels .berocket_better_labels_line .br_alabel span {
+            pointer-events: all;
+        }
+        .berocket_better_labels .berocket_color_label,
+        .br_alabel .berocket_color_label {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .berocket_better_labels .berocket_better_labels_position_left {
+            text-align:left;
+            float: left;
+            clear: left;
+        }
+        .berocket_better_labels .berocket_better_labels_position_center {
+            text-align:center;
+        }
+        .berocket_better_labels .berocket_better_labels_position_right {
+            text-align:right;
+            float: right;
+            clear: right;
+        }
+        .berocket_better_labels.berocket_better_labels_label {
+            clear: both
+        }
+        .berocket_better_labels .berocket_better_labels_line {
+            line-height: 1px;
+        }
+        .berocket_better_labels.berocket_better_labels_label .berocket_better_labels_line {
+            clear: none;
+        }
+        .berocket_better_labels .berocket_better_labels_position_left .berocket_better_labels_line {
+            clear: left;
+        }
+        .berocket_better_labels .berocket_better_labels_position_right .berocket_better_labels_line {
+            clear: right;
+        }
+        .berocket_better_labels .berocket_better_labels_line .br_alabel {
+            display: inline-block;
+            position: relative;
+            top: 0!important;
+            left: 0!important;
+            right: 0!important;
+            line-height: 1px;
+        }.berocket_better_labels .berocket_better_labels_position {
+                display: flex;
+                flex-direction: column;
+            }
+            .berocket_better_labels .berocket_better_labels_position.berocket_better_labels_position_left {
+                align-items: start;
+            }
+            .berocket_better_labels .berocket_better_labels_position.berocket_better_labels_position_right {
+                align-items: end;
+            }
+            .rtl .berocket_better_labels .berocket_better_labels_position.berocket_better_labels_position_left {
+                align-items: end;
+            }
+            .rtl .berocket_better_labels .berocket_better_labels_position.berocket_better_labels_position_right {
+                align-items: start;
+            }
+            .berocket_better_labels .berocket_better_labels_position.berocket_better_labels_position_center {
+                align-items: center;
+            }
+            .berocket_better_labels .berocket_better_labels_position .berocket_better_labels_inline {
+                display: flex;
+                align-items: start;
+            }
+/*# sourceURL=berocket_products_label_style-inline-css */
+</style>
+<link rel='stylesheet' id='formidable-css' href='https://qstore.co.za/wp-content/plugins/formidable/css/formidableforms.css?ver=720839' media='all' />
+<link rel='stylesheet' id='mailchimp-sms-consent-style-css' href='https://qstore.co.za/wp-content/plugins/mailchimp-for-woocommerce/blocks/build/style-sms-consent-block.css?ver=1780016714' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://qstore.co.za/wp-includes/css/dashicons.min.css?ver=73ed0f6087348234da80df7ab15f22b0' media='all' />
+<link rel='stylesheet' id='buttons-css' href='https://qstore.co.za/wp-includes/css/buttons.min.css?ver=73ed0f6087348234da80df7ab15f22b0' media='all' />
+<link rel='stylesheet' id='forms-css' href='https://qstore.co.za/wp-admin/css/forms.min.css?ver=7.0.2' media='all' />
+<link rel='stylesheet' id='l10n-css' href='https://qstore.co.za/wp-admin/css/l10n.min.css?ver=7.0.2' media='all' />
+<link rel='stylesheet' id='wp-base-styles-css' href='https://qstore.co.za/wp-includes/css/dist/base-styles/admin-schemes.min.css?ver=73ed0f6087348234da80df7ab15f22b0' media='all' />
+<link rel='stylesheet' id='login-css' href='https://qstore.co.za/wp-admin/css/login.min.css?ver=7.0.2' media='all' />
+<meta name="generator" content="Site Kit by Google 1.184.0" />      <meta name='referrer' content='strict-origin-when-cross-origin' />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="https://qstore.co.za/wp-content/uploads/2020/08/cropped-qstore-logo-Small-copy-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://qstore.co.za/wp-content/uploads/2020/08/cropped-qstore-logo-Small-copy-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://qstore.co.za/wp-content/uploads/2020/08/cropped-qstore-logo-Small-copy-180x180.png" />
+<meta name="msapplication-TileImage" content="https://qstore.co.za/wp-content/uploads/2020/08/cropped-qstore-logo-Small-copy-270x270.png" />
+        </head>
+        <body class="login no-js login-action-login wp-core-ui admin-color-modern locale-en-us">
+        <script>
+document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+                                <h1 class="screen-reader-text">Log In</h1>
+                        <div id="login">
+                <h1 role="presentation" class="wp-login-logo"><a href="https://wordpress.org/">Powered by WordPress</a></h1>
+
+                <form name="loginform" id="loginform" action="https://qstore.co.za/wp-login.php" method="post">
+                        <p>
+                                <label for="user_login">Username or Email Address</label>
+                                <input type="text" name="log" id="user_login" class="input ltr" value="" size="20" autocapitalize="off" autocomplete="username" required="required" />
+                        </p>
+
+                        <div class="user-pass-wrap">
+                                <label for="user_pass">Password</label>
+                                <div class="wp-pwd">
+                                        <input type="password" name="pwd" id="user_pass" class="input password-input ltr" value="" size="20" autocomplete="current-password" spellcheck="false" required="required" />
+                                        <button type="button" class="button button-secondary wp-hide-pw hide-if-no-js" data-toggle="0" aria-label="Show password">
+                                                <span class="dashicons dashicons-visibility" aria-hidden="true"></span>
+                                        </button>
+                                </div>
+                        </div>
+                                                <p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> <label for="rememberme">Remember Me</label></p>
+                        <p class="submit">
+                                <input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In" />
+                                                           <input type="hidden" name="redirect_to" value="https://qstore.co.za/wp-admin/" />
+                                                           <input type="hidden" name="testcookie" value="1" />
+                        </p>
+                </form>
+
+                                        <p id="nav">
+                                <a class="wp-login-lost-password" href="https://qstore.co.za/wp-login.php?action=lostpassword">Lost your password?</a>                  </p>
+                        <script>
+function wp_attempt_focus() {setTimeout( function() {try {d = document.getElementById( "user_login" );d.focus(); d.select();} catch( er ) {}}, 200);}
+wp_attempt_focus();
+if ( typeof wpOnload === 'function' ) { wpOnload() }
+</script>
+                <p id="backtoblog">
+                        <a href="https://qstore.co.za/">&larr; Go to QStore</a>             </p>
+                        </div>
+
+            <script>
+        if ( document.getElementById('login_error') ) {
+            let userLogin = document.getElementById('user_login');
+            userLogin.value = '';
+            userLogin.setAttribute('value', '');
+        }
+    </script>
+    <script id="clipboard-js" src="https://qstore.co.za/wp-includes/js/clipboard.min.js?ver=2.0.11"></script>
+<script id="zxcvbn-async-js-extra">
+var _zxcvbnSettings = {"src":"https://qstore.co.za/wp-includes/js/zxcvbn.min.js"};
+//# sourceURL=zxcvbn-async-js-extra
+</script>
+<script id="zxcvbn-async-js" src="https://qstore.co.za/wp-includes/js/zxcvbn-async.min.js?ver=1.0"></script>
+<script id="wp-hooks-js" src="https://qstore.co.za/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://qstore.co.za/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="password-strength-meter-js-extra">
+var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
+//# sourceURL=password-strength-meter-js-extra
+</script>
+<script id="password-strength-meter-js" src="https://qstore.co.za/wp-admin/js/password-strength-meter.min.js?ver=7.0.2"></script>
+<script id="underscore-js" src="https://qstore.co.za/wp-includes/js/underscore.min.js?ver=1.13.8"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
+//# sourceURL=wp-util-js-extra
+</script>
+<script id="wp-util-js" src="https://qstore.co.za/wp-includes/js/wp-util.min.js?ver=73ed0f6087348234da80df7ab15f22b0"></script>
+<script id="wp-dom-ready-js" src="https://qstore.co.za/wp-includes/js/dist/dom-ready.min.js?ver=a06281ae5cf5500e9317"></script>
+<script id="wp-a11y-js" src="https://qstore.co.za/wp-includes/js/dist/a11y.min.js?ver=af934e5259bc51b8718e"></script>
+<script id="user-profile-js-extra">
+var userProfileL10n = {"user_id":"0","nonce":"7dc3ab561b"};
+//# sourceURL=user-profile-js-extra
+</script>
+<script id="user-profile-js" src="https://qstore.co.za/wp-admin/js/user-profile.min.js?ver=7.0.2"></script>
+        </body>
+        </html>
