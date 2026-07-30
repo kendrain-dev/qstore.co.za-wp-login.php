@@ -1,0 +1,1 @@
+# qstore.co.za-wp-login.php
